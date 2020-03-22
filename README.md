@@ -4,7 +4,8 @@ The provided dataset is the Seinfeld dataset of scripts from 9 seasons.
 The neutral network that I built generate a new, "fake" tv script.
 
 
-##Basic knowledge in this project
+## Basic knowledge in this project
+
 In this project, I used lessons from Udacity about deep learning in training data:
    *Recurrent Neutral Networks (RNNs)
    *Long-short term Memory Networks (LSTMs)
@@ -12,12 +13,14 @@ In this project, I used lessons from Udacity about deep learning in training dat
    *Embedding and Word2Vec
    
 
-##Basic Installation
+## Basic Installation
+
 Please read the READMEBasicInstallation.md and requirements.txt before continue. You need to set up your environment with anaconda, jupyter notebook, python, and many necessary packages before running the project with new dataset.
 To run the project, you must have a GPU training environment.
 
 
-##Clone the Project from github
+## Clone the Project from github
+
 In your device, you should choose a suitable directory, activate command prompt, and go to that directory.
 You will run these commands on command prompt.
    ...
@@ -28,7 +31,8 @@ You will run these commands on command prompt.
    ...
    
    
-##Run the project in your GPU environment
+## Run the project in your GPU environment
+
 First, in the directory tv-script-generation-project, run the command:
    ...
    jupyter notebook
@@ -36,15 +40,11 @@ First, in the directory tv-script-generation-project, run the command:
 In the browser being support with GPU, open the file dlnd_tv_script_generation.ipynb
 
 You will notice the first cell in the ipynb file:
-...     
-"""
-DON'T MODIFY ANYTHING IN THIS CELL
-"""
-# load in data
-import helper
-data_dir = './data/Seinfeld_Scripts.txt'
-text = helper.load_data(data_dir)
-...
+   ...     
+   import helper
+   data_dir = './data/Seinfeld_Scripts.txt'
+   text = helper.load_data(data_dir)
+    ...
 
 if you have a new dataset, you can change the default dataset Seinfeld_Scripts.txt. Notice: the dataset must be a script similar to this:
 
