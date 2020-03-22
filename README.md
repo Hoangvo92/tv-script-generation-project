@@ -7,10 +7,11 @@ The neutral network that I built generate a new, "fake" tv script.
 ## Basic knowledge in this project
 
 In this project, I used lessons from Udacity about deep learning in training data:
-   *Recurrent Neutral Networks (RNNs)
-   *Long-short term Memory Networks (LSTMs)
-   *Hyperparameters
-   *Embedding and Word2Vec
+
+   * Recurrent Neutral Networks (RNNs)
+   * Long-short term Memory Networks (LSTMs)
+   * Hyperparameters
+   * Embedding and Word2Vec
    
 
 ## Basic Installation
