@@ -5,7 +5,7 @@
 
 ### Introduction to Neural Networks
 
-* [Introduction to Neural Networks](https://github.com/udacity/deep-learning-v2-pytorch/tree/master/intro-neural-networks): Learn how to implement gradient descent and apply it to predicting patterns in student admissions data.
+* [Introduction to Neural Networks](https://github.com/udacity/deep-learning-v2-pytorch/tree/master/intro-neural-networks): Learn how to implement gradient descent and apply it to predicting patterns in data.
 * [Sentiment Analysis with NumPy](https://github.com/udacity/deep-learning-v2-pytorch/tree/master/sentiment-analysis-network): [Andrew Trask](http://iamtrask.github.io/) leads you through building a sentiment analysis model, predicting if some text is positive or negative.
 * [Introduction to PyTorch](https://github.com/udacity/deep-learning-v2-pytorch/tree/master/intro-to-pytorch): Learn how to build neural networks in PyTorch and use pre-trained networks for state-of-the-art image classifiers.
 
@@ -89,13 +89,7 @@ If you'd like to learn more about version control and using `git` from the comma
 
 **Now, we're ready to create our local environment!**
 
-1. Clone the repository, and navigate to the downloaded folder. This may take a minute or two to clone due to the included image data.
-```
-git clone https://github.com/udacity/deep-learning-v2-pytorch.git
-cd deep-learning-v2-pytorch
-```
-
-2. Create (and activate) a new environment, named `deep-learning` with Python 3.6. If prompted to proceed with the install `(Proceed [y]/n)` type y.
+1. Create (and activate) a new environment, named `deep-learning` with Python 3.6. If prompted to proceed with the install `(Proceed [y]/n)` type y.
 
 	- __Linux__ or __Mac__: 
 	```
@@ -110,7 +104,7 @@ cd deep-learning-v2-pytorch
 	
 	At this point your command line should look something like: `(deep-learning) <User>:deep-learning-v2-pytorch <user>$`. The `(deep-learning)` indicates that your environment has been activated, and you can proceed with further package installations.
 
-3. Install PyTorch and torchvision; this should install the latest version of PyTorch.
+2. Install PyTorch and torchvision; this should install the latest version of PyTorch.
 	
 	- __Linux__ or __Mac__: 
 	```
@@ -122,7 +116,7 @@ cd deep-learning-v2-pytorch
 	pip install torchvision
 	```
 
-6. Install a few required pip packages, which are specified in the requirements text file (including OpenCV).
+3. Install a few required pip packages, which are specified in the requirements text file (including OpenCV).
 ```
 pip install -r requirements.txt
 ```
