@@ -73,3 +73,6 @@ Try to have a .txt file of more than 1MB, so the training RNN can train the data
  Next, you will run all cells inside the notebook. The processing will take time.
  If you are unclear, then there are more instruction in the ipynb file.
  The fake script will be nonsensical unless there is a big dataset and a lot of training time.
+ 
+ You can see a default result in the file dlnd_tv_script_generation.pdf
+ Enjoy!
